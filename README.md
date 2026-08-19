@@ -1,1 +1,413 @@
 # paginaIFA
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso Sustentável da Água</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #eef8f7;
+            color: #173b3a;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0077b6, #00b4d8);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        nav {
+            background-color: #023e8a;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #90e0ef;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #0077b6;
+            margin-bottom: 15px;
+            font-size: 2rem;
+        }
+
+        section h3 {
+            color: #0096c7;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #e7f8f7;
+            padding: 20px;
+            border-left: 5px solid #00b4d8;
+            border-radius: 10px;
+        }
+
+        .formula {
+            background-color: #caf0f8;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .destaque {
+            background-color: #d8f3dc;
+            border-left: 6px solid #2d6a4f;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+
+            section {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>💧 Uso Sustentável da Água</h1>
+        <p>
+            Preservar a água é essencial para a vida, para o equilíbrio dos
+            ecossistemas e para o futuro do planeta.
+        </p>
+    </header>
+
+    <nav>
+        <a href="#introducao">Início</a>
+        <a href="#biologia">Biologia</a>
+        <a href="#quimica">Química</a>
+        <a href="#matematica">Matemática</a>
+        <a href="#acoes">Ações</a>
+    </nav>
+
+    <main>
+
+        <section id="introducao">
+            <h2>🌎 Por que economizar água?</h2>
+
+            <p>
+                A água é um recurso natural indispensável para os seres vivos.
+                Ela participa de processos biológicos, químicos e físicos
+                fundamentais para a manutenção da vida.
+            </p>
+
+            <p>
+                Embora grande parte da superfície terrestre seja coberta por
+                água, apenas uma pequena parcela está disponível para consumo
+                humano de forma acessível. Por isso, seu uso consciente é
+                fundamental.
+            </p>
+
+            <div class="destaque">
+                <strong>Objetivo da sustentabilidade:</strong>
+                utilizar a água de maneira responsável, evitando desperdícios,
+                reduzindo a poluição e preservando os recursos hídricos para
+                as próximas gerações.
+            </div>
+        </section>
+
+        <section id="biologia">
+            <h2>🧬 Biologia e a água</h2>
+
+            <p>
+                A água é fundamental para praticamente todos os organismos
+                vivos. Nas células, ela participa de diversas reações químicas
+                e auxilia no transporte de substâncias.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🌱 Plantas</h3>
+                    <p>
+                        As plantas precisam de água para realizar a fotossíntese,
+                        transportar nutrientes e manter sua estrutura celular.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🐟 Ecossistemas</h3>
+                    <p>
+                        Rios, lagos, mares e áreas úmidas abrigam grande
+                        diversidade de espécies e dependem da qualidade da água.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🧑‍🔬 Seres humanos</h3>
+                    <p>
+                        A água participa da regulação da temperatura corporal,
+                        da digestão e do transporte de substâncias pelo organismo.
+                    </p>
+                </div>
+
+            </div>
+
+            <h3>Poluição e biodiversidade</h3>
+
+            <p>
+                O lançamento de lixo, esgoto e produtos químicos nos rios pode
+                alterar as condições ambientais e prejudicar organismos
+                aquáticos. A preservação das nascentes e das matas ciliares
+                ajuda a proteger esses ecossistemas.
+            </p>
+        </section>
+
+        <section id="quimica">
+            <h2>⚗️ Química da água</h2>
+
+            <p>
+                Quimicamente, a água é formada por dois átomos de hidrogênio e
+                um átomo de oxigênio.
+            </p>
+
+            <div class="formula">
+                H₂O
+            </div>
+
+            <h3>Características importantes</h3>
+
+            <ul>
+                <li>É uma molécula polar.</li>
+                <li>É um excelente solvente para diversas substâncias.</li>
+                <li>Participa de inúmeras reações químicas.</li>
+                <li>É encontrada naturalmente nos estados sólido, líquido e gasoso.</li>
+            </ul>
+
+            <h3>Tratamento da água</h3>
+
+            <p>
+                A água destinada ao consumo precisa passar por processos que
+                removem partículas, microrganismos e outras substâncias que
+                possam oferecer riscos à saúde.
+            </p>
+
+            <div class="destaque">
+                <strong>Importante:</strong>
+                evitar jogar óleo, medicamentos, produtos químicos e lixo em
+                pias, vasos sanitários ou corpos d'água contribui para reduzir
+                a contaminação ambiental.
+            </div>
+        </section>
+
+        <section id="matematica">
+            <h2>📊 Matemática e consumo de água</h2>
+
+            <p>
+                A matemática pode ser utilizada para medir o consumo de água,
+                identificar desperdícios e calcular a economia obtida com
+                atitudes sustentáveis.
+            </p>
+
+            <h3>Exemplo de consumo</h3>
+
+            <p>
+                Imagine uma torneira que desperdice 2 litros de água por minuto
+                devido a um vazamento.
+            </p>
+
+            <div class="formula">
+                2 litros/minuto × 60 minutos × 24 horas = 2.880 litros/dia
+            </div>
+
+            <p>
+                Nesse exemplo, um vazamento aparentemente pequeno poderia
+                representar até <strong>2.880 litros de água desperdiçados
+                em um dia</strong>, caso permanecesse aberto continuamente.
+            </p>
+
+            <h3>Calculando a economia</h3>
+
+            <p>
+                Se uma família reduzir seu consumo de 500 litros para
+                400 litros por dia, a economia será:
+            </p>
+
+            <div class="formula">
+                500 - 400 = 100 litros por dia
+            </div>
+
+            <p>
+                Em 30 dias:
+            </p>
+
+            <div class="formula">
+                100 × 30 = 3.000 litros economizados
+            </div>
+
+            <p>
+                Assim, pequenas mudanças diárias podem resultar em uma grande
+                economia ao longo do tempo.
+            </p>
+        </section>
+
+        <section id="acoes">
+            <h2>🌱 Como usar a água de forma sustentável?</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🚿 No banho</h3>
+                    <p>
+                        Reduza o tempo do banho e desligue o chuveiro enquanto
+                        ensaboa o corpo.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🚰 Torneiras</h3>
+                    <p>
+                        Feche a torneira enquanto escova os dentes e conserte
+                        vazamentos rapidamente.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🌧️ Chuva</h3>
+                    <p>
+                        Quando apropriado e seguro, a água da chuva pode ser
+                        aproveitada para atividades que não exigem água potável.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🧹 Limpeza</h3>
+                    <p>
+                        Evite utilizar água potável em excesso para lavar
+                        calçadas e áreas externas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🌳 Natureza</h3>
+                    <p>
+                        Preserve rios, nascentes, florestas e áreas de
+                        vegetação próximas aos cursos d'água.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>♻️ Reutilização</h3>
+                    <p>
+                        Sempre que possível, reutilize água de maneira segura
+                        para atividades adequadas.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>💡 Conclusão</h2>
+
+            <p>
+                O uso sustentável da água depende da participação de todos.
+                A Biologia mostra sua importância para os seres vivos e os
+                ecossistemas; a Química explica suas propriedades e os
+                processos relacionados à qualidade da água; e a Matemática
+                permite medir o consumo e compreender o impacto do desperdício.
+            </p>
+
+            <p>
+                Cuidar da água hoje significa contribuir para um planeta mais
+                saudável e garantir que esse recurso continue disponível
+                para as futuras gerações.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>💧 Água é vida. Preservar é responsabilidade de todos.</p>
+        <p>Projeto educativo sobre sustentabilidade</p>
+    </footer>
+
+</body>
+</html>
